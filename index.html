@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School of Science, Ile-Ife | For Moral and Academic Excellence</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header/Navigation (Persistent Shell) -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <img src="assets/images/favicon.png" alt="SOS Logo" class="logo-img">
+                    <span class="logo-text">SOS ILE-IFE</span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#/home" class="nav-link">Home</a></li>
+                    <li><a href="#/about" class="nav-link">About</a></li>
+                    <li><a href="#/academics" class="nav-link">Academics</a></li>
+                    <li><a href="#/admissions" class="nav-link">Admissions</a></li>
+                    <li><a href="#/gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#/contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SPA Root Container -->
+    <main id="app-root"></main>
+
+    <!-- Footer (Persistent Shell) -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>SOS ILE-IFE</h3>
+                    <p style="color: var(--text-muted); font-size: 0.875rem;">Dedicated to providing world-class science education in the heart of Ile-Ife since 1990.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#/about">Our Story</a></li>
+                        <li><a href="#/academics">Programs</a></li>
+                        <li><a href="#/admissions">Admissions</a></li>
+                        <li><a href="#/gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#/home">Privacy Policy</a></li>
+                        <li><a href="#/home">Terms of Use</a></li>
+                        <li><a href="#/home">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 School of Science, Ile-Ife. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SPA Logic & Components -->
+    <script src="js/components.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
