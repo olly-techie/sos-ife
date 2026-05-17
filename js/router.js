@@ -6,7 +6,10 @@ const Router = {
         '/academics': Components.Academics,
         '/admissions': Components.Admissions,
         '/gallery': Components.Gallery,
-        '/contact': Components.Contact
+        '/contact': Components.Contact,
+        '/privacy': Components.Privacy,
+        '/terms': Components.Terms,
+        '/sitemap': Components.Sitemap
     },
 
     init: () => {

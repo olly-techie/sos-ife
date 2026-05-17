@@ -601,5 +601,112 @@ const Components = {
                 </div>
             </div>
         </section>
+    `,
+
+    Privacy: () => `
+        <section class="page-header" style="background: var(--primary); color: var(--white); padding: 10rem 0 6rem; text-align: center; position: relative; overflow: hidden;">
+            <div class="container reveal">
+                <h1 style="color: var(--white); font-size: 3.5rem;">Privacy Policy</h1>
+                <p style="opacity: 0.8; letter-spacing: 1px;">How we protect your personal information.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div style="max-width: 800px; margin: 0 auto;" class="reveal">
+                    <div class="card glass-card" style="padding: 3rem;">
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">Data Collection</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">At School of Science, Ile-Ife, we are committed to maintaining the trust and confidence of our visitors. We collect personal information only when you voluntarily provide it through our contact forms or admission applications.</p>
+                        
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">How We Use Your Data</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">The information we collect is used solely for school-related purposes, such as processing admissions, responding to inquiries, and sending official school updates. We do not sell or share your data with third-party marketing companies.</p>
+
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">Security</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, loss, or alteration.</p>
+
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">Cookies</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">Our website may use cookies to improve your browsing experience. You can choose to disable cookies through your browser settings, though some features of the site may not function correctly.</p>
+
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">Contact Us</h2>
+                        <p style="color: var(--text-muted); line-height: 1.8;">If you have any questions about this Privacy Policy, please contact us at info@sosife.edu.ng.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    `,
+
+    Terms: () => `
+        <section class="page-header" style="background: var(--primary); color: var(--white); padding: 10rem 0 6rem; text-align: center; position: relative; overflow: hidden;">
+            <div class="container reveal">
+                <h1 style="color: var(--white); font-size: 3.5rem;">Terms of Use</h1>
+                <p style="opacity: 0.8; letter-spacing: 1px;">Rules and regulations for using our digital platform.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div style="max-width: 800px; margin: 0 auto;" class="reveal">
+                    <div class="card glass-card" style="padding: 3rem;">
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">Acceptance of Terms</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">By accessing and using this website, you agree to be bound by these Terms of Use and all applicable laws and regulations.</p>
+                        
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">User Conduct</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">Users are expected to use the website responsibly and for lawful purposes only. Any attempt to disrupt the site's operation or access unauthorized data is strictly prohibited.</p>
+
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">Intellectual Property</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">All content on this website, including text, images, and logos, is the property of School of Science, Ile-Ife, and is protected by copyright laws. Use of this content without prior written permission is prohibited.</p>
+
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">Disclaimer</h2>
+                        <p style="margin-bottom: 2rem; color: var(--text-muted); line-height: 1.8;">The information provided on this website is for general informational purposes only. While we strive for accuracy, we make no guarantees regarding the completeness or reliability of the information.</p>
+
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary);">Modifications</h2>
+                        <p style="color: var(--text-muted); line-height: 1.8;">We reserve the right to modify these terms at any time without prior notice. Your continued use of the site constitutes acceptance of the updated terms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    `,
+
+    Sitemap: () => `
+        <section class="page-header" style="background: var(--primary); color: var(--white); padding: 10rem 0 6rem; text-align: center; position: relative; overflow: hidden;">
+            <div class="container reveal">
+                <h1 style="color: var(--white); font-size: 3.5rem;">Sitemap</h1>
+                <p style="opacity: 0.8; letter-spacing: 1px;">A comprehensive guide to our website structure.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="grid-3">
+                    <div class="reveal">
+                        <h3 style="color: var(--secondary); margin-bottom: 1.5rem;"><i class="fas fa-home" style="margin-right: 0.75rem;"></i>Main Pages</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 1rem;"><a href="#/home" style="color: var(--primary); font-weight: 600; text-decoration: none;">Home</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/about" style="color: var(--primary); font-weight: 600; text-decoration: none;">About Us</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/academics" style="color: var(--primary); font-weight: 600; text-decoration: none;">Academics</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/admissions" style="color: var(--primary); font-weight: 600; text-decoration: none;">Admissions</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/gallery" style="color: var(--primary); font-weight: 600; text-decoration: none;">Gallery</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/contact" style="color: var(--primary); font-weight: 600; text-decoration: none;">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="reveal">
+                        <h3 style="color: var(--secondary); margin-bottom: 1.5rem;"><i class="fas fa-gavel" style="margin-right: 0.75rem;"></i>Legal & Information</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 1rem;"><a href="#/privacy" style="color: var(--primary); font-weight: 600; text-decoration: none;">Privacy Policy</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/terms" style="color: var(--primary); font-weight: 600; text-decoration: none;">Terms of Use</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/sitemap" style="color: var(--primary); font-weight: 600; text-decoration: none;">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="reveal">
+                        <h3 style="color: var(--secondary); margin-bottom: 1.5rem;"><i class="fas fa-link" style="margin-right: 0.75rem;"></i>Quick Access</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 1rem;"><a href="#/about" style="color: var(--primary); font-weight: 600; text-decoration: none;">Mission & Vision</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/academics" style="color: var(--primary); font-weight: 600; text-decoration: none;">Our Departments</a></li>
+                            <li style="margin-bottom: 1rem;"><a href="#/admissions" style="color: var(--primary); font-weight: 600; text-decoration: none;">How to Apply</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     `
 };
